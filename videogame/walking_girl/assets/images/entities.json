@@ -1,0 +1,22 @@
+{
+    "standing_right" : [0,0,48,64],
+    "walking_right_1" : [48,0,48,64],
+    "walking_right_2" : [96,0,48,64],
+    "walking_right_3" : [144,0,48,64],
+    "walking_right_4" : [228,0,48,64],
+    "walking_right_5" : [276,0,48,64],
+    "walking_right_6" : [324,0,48,64],
+    "walking_right_7" : [372,0,48,64],
+    "walking_right_8" : [420,0,48,64],
+    "walking_right_9" : [468,0,48,64],
+    "standing_left" : [0,64,48,64],
+    "walking_left_1" : [48,0,48,64],
+    "walking_left_2" : [96,0,48,64],
+    "walking_left_3" : [144,0,48,64],
+    "walking_left_4" : [228,0,48,64],
+    "walking_left_5" : [276,0,48,64],
+    "walking_left_6" : [324,0,48,64],
+    "walking_left_7" : [372,0,48,64],
+    "walking_left_8" : [420,0,48,64],
+    "walking_left_9" : [468,0,48,64]
+}

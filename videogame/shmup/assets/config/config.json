@@ -1,0 +1,35 @@
+{
+    "game" : {
+        "screen_size" : [480, 640],
+        "caption" : "My new videogame SHMUP",
+        "bg_color" : [0, 0, 0],
+        "font_path" : "shmup.assets.fonts",
+        "font_name" : "Sansation.ttf",
+        "sync" : {
+            "fps" : 60,
+            "update_time" : 1000,
+            "fps_pos" : [0,0],
+            "fps_color" : [150, 150, 210]
+        }
+    },
+    "entities" : {
+        "image_path" : ["shmup.assets.images", "entities.png"],
+        "data_path" : ["shmup.assets.images", "entities.json"],
+        "hero" : {
+            "name" : "eagle",
+            "name_left" : "eagle_left",
+            "name_right" : "eagle_right",
+            "speed" : 0.2
+        },
+        "projectiles" : {
+            "allied" : {
+                "name" : "allied_bullet",
+                "velocity" : [0.0, -0.2]
+            },
+            "enemy" : {
+                "name" : "enemy_bullet",
+                "velocity" : [0.0, 0.3]
+            }
+        }
+    }
+}

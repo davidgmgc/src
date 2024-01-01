@@ -1,0 +1,26 @@
+{
+    "game" : {
+        "screen_size" : [800, 600],
+        "caption" : "My new videogame Walking Girl",
+        "bg_color" : [0, 0, 0],
+        "font_path" : "walking_girl.assets.fonts",
+        "font_name" : "Sansation.ttf",
+        "sync" : {
+            "fps" : 60,
+            "update_time" : 1000,
+            "fps_pos" : [0,0],
+            "fps_color" : [150, 150, 210]
+        }
+    },
+    "entities" : {
+        "image_path" : ["walking_girl.assets.images", "entities.png"],
+        "data_path" : ["walking_girl.assets.images", "entities.json"],
+        "hero" : {
+            "name" : "girl",
+            "speed" : 0.2
+        }
+
+    }
+            
+}
+    
